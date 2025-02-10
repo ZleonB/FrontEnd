@@ -91,3 +91,14 @@ a:hover {
 a:active {
     color: brown;
 }
+
+.container > div {
+    margin: 10px;
+}
+
+.container {
+    &div
+    {
+        margin: 10px;
+}
+}
