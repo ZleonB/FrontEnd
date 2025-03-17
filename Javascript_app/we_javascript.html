@@ -1,11 +1,29 @@
 
         <!--Parte html -->
+        <meta charset="utf-8">
         <div onclick="mensaje()">
             Pulsar aquí
-            </div>
+        </div>
             <!-- parte javascript-->
             <script>
             function mensaje(){
                alert("Pulsaste el botón")
             }
             </script>
+
+        <!--Parte html -->
+        <meta charset="utf-8">
+        <div onmousemove="colorFondo()">
+            Pasa por aquí
+        </div>
+        <div id="efecto">Efectos del movimiento
+
+        </div>
+            <!-- parte javascript-->
+            <script>
+            function colorFondo(){
+                let cuadro = document.getElementById("efecto")
+               cuadro.style.backgroundColor = "green"
+            }
+            </script>
+
